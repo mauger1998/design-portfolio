@@ -1,0 +1,22 @@
+:root {
+    --pink: #FFBFFF;
+}
+*,
+*::before,
+*::after {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    background-color:white;
+    color:black;
+    width:100vw;
+    height:600vh;
+}
+/** Safari Button Text Color Reset
+*********************************/
+button {
+    color:black;
+}
