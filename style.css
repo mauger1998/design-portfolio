@@ -132,7 +132,19 @@ nav {
 .title-container {
     display:flex;
     align-items: flex-start;
+    position:relative;
     
+}
+#highlight {
+    width:600px;
+    position:absolute;
+    top:40%;
+    z-index:-1;
+}
+#pencil {
+    position:absolute;
+    bottom:18%;
+    right:-2%;
 }
 
 .hero {
