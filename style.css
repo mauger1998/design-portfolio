@@ -246,3 +246,24 @@ nav {
     font-size:6rem;
 }
 
+
+
+.title-container p:nth-of-type(1) {
+    position:absolute;
+    font-size:1.5rem;
+    top:30%;
+    left:1%;
+}
+.title-container p:nth-of-type(2) {
+    position:absolute;
+    font-size:1.5rem;
+    top:65%;
+    left:1%;
+}
+.title-container p:nth-of-type(3) {
+    position:absolute;
+    font-size:1.5rem;
+    top:93%;
+    left:1%;
+}
+
