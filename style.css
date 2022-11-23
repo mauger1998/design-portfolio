@@ -103,3 +103,52 @@ nav {
     top:-15%;
     right:-5%;
 }
+
+/************************/
+.hero h1 {
+    font-size:5rem;
+    line-height:2;
+    font-weight:700;
+}
+.hero button {
+    padding:1.15rem 5rem;
+    font-size:2rem;
+    font-weight:bold;
+    width:300px;
+    height:75px;
+    background-color:white;
+}
+.left-side {
+    border:2px solid blue;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-inline:5rem;
+    padding-top:3rem;
+    gap:1.5rem;
+}
+.right-side {
+    border:2px solid green;
+}
+.hero {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    height:86vh;
+}
+.hero-button-container {
+    position:relative;
+}
+.hero-button-container button:nth-child(1) {
+    border:1.5px solid black;
+}
+
+.hero-button-container button:nth-child(2) {
+    position:absolute;
+    top:-15%;
+    left:5%;
+    border:2px solid var(--pink);
+    color:white;
+    z-index:-1;
+    background-color:white;
+}
