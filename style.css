@@ -33,9 +33,11 @@ header {
     align-items:center;
     justify-content: space-between;
     position:relative;
+    width:100vw;
+    padding-right:3rem;
 }
 .logo-container img {
-    width:100px;
+    width:75px;
     position:absolute;
     top:50%;
     left:50%;
@@ -52,4 +54,52 @@ header {
 .logo-container img:nth-child(2) {
     top:43%;
     left:55%;
+}
+
+
+
+
+nav ul {
+    display:flex;
+    list-style: none;
+    justify-content: space-evenly;
+    align-items: center;
+    width:100%;
+}
+nav {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:50%;
+}
+
+
+
+
+.header-button-container button:nth-child(1) {
+    font-size:1rem;
+    padding:0.5rem 2rem;
+    background-color:white;
+    border:1.5px solid black;
+    font-weight:bold;
+    width:150px;
+}
+.header-button-container button:nth-child(2) {
+    font-size:1rem;
+    padding:0.5rem 2rem;
+    background-color:white;
+    border:2px solid #FFBFFF;
+    font-weight:bold;
+    color:white;
+    width:150px;
+}
+.header-button-container {
+    position:relative;
+}
+
+.border-button-header {
+    position:absolute;
+    z-index:-1;
+    top:-15%;
+    right:-5%;
 }
