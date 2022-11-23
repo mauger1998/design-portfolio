@@ -33,14 +33,14 @@ header {
     align-items:center;
     justify-content: space-between;
     position:relative;
-    width:100vw;
-    padding-right:3rem;
+    width:calc(100vw - 10rem);
+    margin-inline:5rem;
 }
 .logo-container img {
     width:75px;
     position:absolute;
     top:50%;
-    left:50%;
+    left:45%;
     transform:translate(-50%, -50%) 
 }
 .logo-container {
@@ -52,8 +52,8 @@ header {
     z-index:1;
 }
 .logo-container img:nth-child(2) {
-    top:43%;
-    left:55%;
+    top:45%;
+    left:50%;
 }
 
 
@@ -106,38 +106,43 @@ nav {
 
 /************************/
 .hero h1 {
-    font-size:5rem;
-    line-height:2;
+    font-size:6.5rem;
+    line-height:1.7;
     font-weight:700;
 }
 .hero button {
     padding:1.15rem 5rem;
+    padding-right:10rem;
     font-size:2rem;
     font-weight:bold;
-    width:300px;
+    width:400px;
     height:75px;
     background-color:white;
 }
 .left-side {
-    border:2px solid blue;
     display:flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    padding-inline:5rem;
-    padding-top:3rem;
-    gap:1.5rem;
+    padding-left:7rem;
+    gap:2rem;
+    padding-top:1rem;
+    
 }
-.right-side {
-    border:2px solid green;
+.title-container {
+    display:flex;
+    align-items: flex-start;
+    
 }
+
 .hero {
     display:grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1.25fr 0.75fr;
     height:86vh;
 }
 .hero-button-container {
     position:relative;
+    margin-top:-0.5rem;
 }
 .hero-button-container button:nth-child(1) {
     border:1.5px solid black;
@@ -155,8 +160,8 @@ nav {
 
 /*****************************/
 .first-image-container img {
-    width:350px;
-    height:85%;
+    width:375px;
+    height:200px;
 }
 
 .second-image-container img {
@@ -170,7 +175,7 @@ nav {
     width:60px;
 }
 .hero-image-container {
-    width:26rem;
+    width:27.75rem;
     height:86vh;
     display:grid;
     grid-template-columns:1fr 1fr 1fr 1fr;
@@ -203,6 +208,7 @@ nav {
     display:flex;
     justify-content: flex-end;
     align-items: center;
+    padding-top:1.5rem;
 }
 .with-container {
     grid-column: 2 / span 1;
