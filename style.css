@@ -26,3 +26,30 @@ main {
     width:100vw;
     height:1000vh;
 }
+/************************/
+header {
+    display:flex;
+    border-bottom:1px solid black;
+    align-items:center;
+    justify-content: space-between;
+    position:relative;
+}
+.logo-container img {
+    width:100px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%) 
+}
+.logo-container {
+    height:100px;
+    width:15%;
+    position:relative;
+}
+.logo-container img:nth-child(1) {
+    z-index:1;
+}
+.logo-container img:nth-child(2) {
+    top:43%;
+    left:55%;
+}
