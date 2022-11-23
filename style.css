@@ -108,7 +108,7 @@ nav {
 .hero h1 {
     font-size:6.5rem;
     line-height:1.7;
-    font-weight:700;
+    font-weight:600;
 }
 .hero button {
     padding:1.15rem 5rem;
@@ -265,5 +265,11 @@ nav {
     font-size:1.5rem;
     top:93%;
     left:1%;
+}
+svg {
+    width:40px;
+    position:absolute;
+    right:5%;
+    top:43%;
 }
 
