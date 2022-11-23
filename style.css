@@ -15,12 +15,13 @@ body {
     width:100vw;
     height:1000vh;
 }
-/** Safari Button Text Color Reset
-*********************************/
+/*Safari button text reset
+*************************/
 button {
     color:black;
+    border:none;
 }
-/********************************/
+/************************/
 main {
     width:100vw;
     height:1000vh;
